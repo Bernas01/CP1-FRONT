@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #800000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }
+  
+  /* Seção principal */
+  main {
+    padding: 40px 20px;
+    background-color: #2b2b2b;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 2.5rem;
+    color: #ffd700;
+    margin-bottom: 20px;
+  }
+  
+  /* Tabela de produtos */
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #444;
+  }
+  
+  table th {
+    background-color: #800000;
+    color: #fff;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #333;
+  }
+  
+  table tr:hover {
+    background-color: #444;
+  }
+  
+  table td {
+    background-color: #222;
+    color: #ddd;
+  }
+  
+  table td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #111;
+    color: #999;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+  }
+  

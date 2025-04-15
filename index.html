@@ -5,39 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Site oficial da Vinharia Agnello. Conheça nossa história, produtos e equipe." />
   <meta name="keywords" content="vinho, vinharia, agnello, loja de vinhos" />
-  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/css/style1.css" />
+
   <title>Vinharia Agnello</title>
 </head>
 <body>
-<div class="navbar">
-  <header>
+  <header id="topo">
     <h1>Vinharia Agnello</h1>
     <nav>
       <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="src/pages/historia.html">História</a></li>
         <li><a href="src/pages/produtos.html">Produtos</a></li>
-        <li><a href="src/pages/galeria.html">Galeria</a></li>
+        <li><a href="src/pages/local.html">Local</a></li>
         <li><a href="src/pages/contato.html">Contato</a></li>
       </ul>
     </nav>
   </header>
-</div>
-<div id="inicio">
-      <h2>Bem-vindo à Vinharia Agnello</h2>
-      <p>Desde 1950, trazendo os melhores vinhos nacionais e importados com paixão e tradição.</p>
-      <h3>Destaques</h3>
-      <ul>
-        <li>Vinhos premiados</li>
-        <li>Degustações exclusivas</li>
-        <li>Atendimento personalizado</li>
-      </ul>
-      <h3>Conheça mais</h3>
-      <p>Assista nosso vídeo institucional:</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/7f4bOV4qjD0" title="YouTube video" frameborder="0" allowfullscreen></iframe>
-</div>
-  <footer>
-    <p>&copy; 2025 Vinharia Agnello</p>
+
+
+  <section id="bem-vindo">
+    <h2>Bem-vindo à Vinharia Agnello</h2>
+    <p>Desde 1950, trazendo os melhores vinhos nacionais e importados com paixão e tradição.</p>
+  </section>
+
+  <section id="destaques">
+    <h3>Destaques</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>Vinhos premiados</h4>
+        <p>Selecionados com rigor para atender aos paladares mais exigentes.</p>
+        <img src="src/assets/imgs/vinho-premiado.png" alt="Vinho Premiado">
+      </div>
+      <div class="card">
+        <h4>Degustações exclusivas</h4>
+        <p>Eventos com sommeliers renomados para uma experiência única.</p>
+        <img src="src/assets/imgs/degustacao.png" alt="Degustação Exclusiva">
+      </div>
+      <div class="card">
+        <h4>Atendimento personalizado</h4>
+        <p>Equipe especializada para ajudá-lo a encontrar o vinho ideal.</p>
+        <img src="src/assets/imgs/atendimento.png" alt="Atendimento Personalizado">
+      </div>
+    </div>
+  </section>
+
+  <section id="video">
+    <h3>Conheça mais</h3>
+    <p>Assista nosso vídeo institucional:</p>
+    <iframe width="560" height="315" src="https://youtu.be/Y0tkX4wNwtA?si=3iVfw8DllAxueP6p" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <footer id="rodape">
+    <p>&copy; 2025 Vinharia Agnello. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
